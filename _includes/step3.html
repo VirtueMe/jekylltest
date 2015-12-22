@@ -1,0 +1,20 @@
+<div id="step3" class="item">
+  <div class="row">
+    <div class="col-xs-12 col-lg-6">
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">{{ site.data[page.language].sections.1.steps.3.title }}</h4>
+          <h6 class="card-subtitle text-muted">{{ site.data[page.language].sections.1.steps.3.subtitle }}</h6>
+        </div>
+        <div class="card-block">
+        {% for text in site.data[page.language].sections.1.steps.3.content %}
+          <p class="card-text">{{ text }}</p>
+        {% endfor %}
+        </div>
+        <div class="card-block">
+          <a id="submit-step3" class="btn btn-success btn-block button" role="button">{{ site.data[page.language].sections.1.steps.3.buttontext }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

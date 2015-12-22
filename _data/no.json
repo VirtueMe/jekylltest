@@ -1,0 +1,212 @@
+{
+  "language": "nb-NO",
+  "jslang": "nb-no",
+  "title": "Navnelapper - klistremerker og strykemerker. Navnemerket gir deg gratis frakt og rask levering!",
+  "description": "Navnelapper og merkelapper for klær og eiendeler! Vi har gratis frakt og rask levering. Enkelt og billig!",
+  "verification_code": "o-Zptw0MMnqEYSUaiewnU_eb4ZRlwZWiDtChtRsJFPU",
+  "trackid": "UA-36858582-1",
+  "header": {
+    "logo": {
+      "url": "/images/gfx/logo.png",
+      "alt": "Navnemerket"
+    },
+    "vision": "Navnelapper i høy kvalitet til lav pris! Få klistremerker og strykemerker rett hjem i postkassa. Gratis porto. Enkelt og greit!"
+  },
+  "nav": {
+    "create": "Lag navnelapper",
+    "usage": "Bruksanvisning",
+    "about": {
+      "full": "Om Navnemerket",
+      "small": "Om Oss"
+    }
+  },
+  "slider": [
+    {
+      "image": "/images/slider-product1.jpg",
+      "text": "Lag navnelapper",
+      "url": "#create"
+    },
+    {
+      "image": "/images/slider-product2.jpg",
+      "text": "Lag dine navnemerker",
+      "url": "#create"
+    },
+    {
+      "image": "/images/slider-product3.jpg",
+      "text": "Lag klistremerker og strykemerker til lav pris",
+      "url": "#create"
+    }
+  ],
+  "sections": {
+    "1": {
+      "steps": {
+        "1": {
+          "title": "Lag praktiske navnelapper<span class=\"hidden-xs-down\"> på null komma niks</span>!",
+          "textinput": {
+            "title": "Skriv inn tekst",
+            "line1": "Første linje",
+            "line2": "Andre linje",
+            "line3": "Tredje linje"
+          },
+          "imageselect": {
+            "title": "Velg motiv",
+            "images": [
+              {
+                "id": "1",
+                "title": "ugle"
+              },
+              {
+                "id": "2",
+                "title": "tre"
+              },
+              {
+                "id": "3",
+                "title": "traktor"
+              },
+              {
+                "id": "4",
+                "title": "hjerte"
+              },
+              {
+                "id": "5",
+                "title": "fugl"
+              },
+              {
+                "id": "6",
+                "title": "katt"
+              },
+              {
+                "id": "7",
+                "title": "sommerfugl"
+              },
+              {
+                "id": "8",
+                "title": "apekatt"
+              },
+              {
+                "id": "9",
+                "title": "pirat"
+              },
+              {
+                "id": "10",
+                "title": "peace"
+              },
+              {
+                "id": "11",
+                "title": "snøfnugg"
+              },
+              {
+                "id": "12",
+                "title": "kanin"
+              }
+            ],
+            "noimage": "Jeg ønsker ikke motiv på navnelappene"
+          },
+          "preview": {
+            "title": "Forhåndsvisning",
+            "image": {
+              "url": "/images/icons/1.jpg",
+              "title": "ugle"
+            },
+            "subtitle": "1:1 målestokk",
+            "content": "Få 180 navnelapper for kun 99 kroner. Vi betaler portoen.",
+            "buttontext": "Gå videre"
+          }
+        },
+        "2": {
+          "selectproduct": {
+            "image": {
+              "url": "/images/products.jpg",
+              "title": "Klistremerker og strykemerker"
+            },
+            "title": "Hvilken pakke ønsker du?",
+            "subtitle": "Alle pakkene koster 99 kroner. Fri frakt.",
+            "products": [
+              {
+                "id": "0",
+                "title": "90 klistremerker + 90 strykemerker",
+                "checked": "checked"
+              },
+              {
+                "id": "1",
+                "title": "180 klistremerker"
+              },
+              {
+                "id": "2",
+                "title": "180 strykemerker"
+              }
+            ]
+          },
+          "shipmentaddress": {
+            "title": "Hvor skal vi sende navnelappene?",
+            "subtitle": "Faktura sendes sammen med navnelappene.",
+            "firstname": "Fornavn",
+            "lastname": "Etternavn",
+            "email": "E-post",
+            "address": "Adresse",
+            "zip": "Postnummer",
+            "city": "Poststed",
+            "buttontext": "Bestill navnelappene"
+          }
+        },
+        "3": {
+          "title": "Tusen takk for din bestilling!",
+          "subtitle": "Navnemerkene er snart på vei i posten til deg!",
+          "content": [
+            "Forventet leveringstid er 1-2 virkedager. Faktura sendes sammen med varene. <a href=\"#usage\">Bruksanvisning finner du her</a>",
+            "Vi håper du blir fornøyd med navnemerkene, og ønsker deg velkommen tilbake ved en senere anledning!"
+          ],
+          "buttontext": "Lag flere navnemerker"
+        }
+      }
+    },
+    "2": {
+      "title": "Slik gjør du:",
+      "image": {
+        "url": "/images/product-examples.jpg",
+        "title": "Eksempel på produkter som egner seg til navnemerking"
+      },
+      "products": [
+        {
+          "title": "Klistremerker",
+          "text": "Fine til å merke matbokser, leker og andre eiendeler med. De kan også klistres på vaskeanvisningslappen i klær. Sørg for at overflaten hvor navnelappene skal sitte er jevn, ren og tørr. Gni godt over klistremerket med en finger slik at du fjerner alle luftbobler. La klistremerket sitte på noen timer før det utsettes for vask. Navnelappene tåler høy temperatur i oppvaskmaskinen."
+        },
+        {
+          "title": "Strykemerker",
+          "text": "Fine til å merke klær og andre tekstiler med. Still strykejernet på høyeste varme, uten dampfunksjon. Stryk kun tekstiler som tåler stryking ved høy temperatur. Plasser navnelappen på ønsket sted, med teksten opp. Legg medfølgende papir eller bakepapir mellom strykejernet og merket. Sett strykejernet flatt over strykemerket og press forsiktig ned. Hold strykejernet helt rolig i cirka 5-10 sekunder. La lappen sitte på i noen timer før første vask. Navnelappene tåler vask på 90 grader."
+        }
+      ]
+    },
+    "3": {
+      "title": "Litt om Navnemerket",
+      "image": {
+        "url": "/images/product-single.jpg",
+        "title": ""
+      },
+      "blocks": [
+        {
+          "content": [
+            "Vi ønsker å gjøre det enkelt og rimelig for din familie å merke tøy og eiendeler. Navnelappene er i god kvalitet og svært enkle for deg å bestille, uten for mange valgmuligheter. Våre navnelapper er enkle i bruk og kan bidra til en praktisk hverdag for både små og store.",
+            "Navnemerket produseres av <a href=\"http://www.sandviks.com\">Sandviks</a>, som også tilbyr familier veiledning gjennom <a href=\"http://www.babyverden.no\">Babyverden.no</a> og <a href=\"http://www.familieverden.no\">Familieverden.no</a>, og rett bok til rett tid gjennom <a href=\"http://www.goboken.no\">Goboken.no</a>. Eller sagt på en annen måte: Vi hjelper barn og foreldre å utvikle seg sammen.",
+            "Ta kontakt med vår kundeservice dersom du har noen spørsmål."
+          ],
+          "address": {
+            "line1": "Kundeservice",
+            "line2": "<a href=\"mailto:kundeservice@sandviks.com\">kundeservice@sandviks.com</a>",
+            "line3": "<abbr title=\"Telefon\">T:</abbr> 51 44 00 51"
+          }
+        },
+        {
+          "content": [
+            "Vi besvarer alle e-poster så raskt vi kan og senest i løpet av neste arbeidsdag. Sandviks kundeservice er betjent mellom klokken 09.00-15.00 alle hverdager."
+          ],
+          "address": {
+            "line1": "Sandviks AS",
+            "line2": "Strandsvingen 14",
+            "line3": "4032 Stavanger"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title"><i class="icon-font-left icon-ok"></i> {{ site.data[page.language].sections.1.steps.1.preview.title }}</h4>
+  </div>
+  <div class="card-block">
+    <div id="preview-label">
+      <div id="iconholder">
+        <img src="{{ site.data[page.language].sections.1.steps.1.preview.image.url }}" alt="{{ site.data[page.language].sections.1.steps.1.preview.image.title }}"/>
+      </div>
+      <div id="textholder">
+        <span class="preview line1"></span>
+        <span class="preview line2"></span>
+        <span class="preview line3"></span>
+      </div>
+    </div>
+    <br >
+    <p class="card-text">{{ site.data[page.language].sections.1.steps.1.preview.subtitle }}</p>
+  </div>
+  <div class="card-block">
+    <p class="card-text text-muted">{{ site.data[page.language].sections.1.steps.1.preview.content }}</p>
+  </div>
+  <div class="card-block">
+    <div class="card-text">
+      <a id="submit-step1" class="btn btn-success btn-block submit" role="button" data-track="/detaljer">{{ site.data[page.language].sections.1.steps.1.preview.buttontext }} <i class="icon-font-right icon-chevron-right"></i></a>
+    </div>
+  </div>
+</div>

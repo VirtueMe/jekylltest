@@ -1,0 +1,13 @@
+<div id="select-product" class="col-lg-5 col-xs-12">
+  <div class="card">
+    <img class="card-img-top" src="{{ site.data[page.language].sections.1.steps.2.selectproduct.image.url }}" alt="{{ site.data[page.language].sections.1.steps.2.selectproduct.image.title }}" />
+    <div class="card-block">
+      <h4 class="card-title">{{ site.data[page.language].sections.1.steps.2.selectproduct.title }}</h4>
+
+    {% for product in site.data[page.language].sections.1.steps.2.selectproduct.products %}
+      <div class="radio"><label class="inline-label"><input type="radio" id="option{{ product.id }}" name="radio" value="{{ product.id }}" {{ product.checked }} /> {{ product.title }}</label></div>
+    {% endfor %}
+      <p class="card-text">{{ site.data[page.language].sections.1.steps.2.selectproduct.subtitle }}</p>
+    </div>
+  </div>
+</div>

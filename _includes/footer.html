@@ -1,0 +1,21 @@
+<script>
+  var require = {
+    config: {
+      i18n: {
+        locale: '{{ site.data[page.language].jslang }}'
+      },
+
+      app: {
+        flexslider: {
+            // animation: 'slide'
+        },
+        inputform: {
+          step2: {
+            soldout: []
+          }
+        }
+      }
+    }
+  };
+</script>
+<script data-main='/js/config' src='/js/extensions/backbone/lib/require.min.js'></script>

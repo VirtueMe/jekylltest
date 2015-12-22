@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin box-shadow($boxshadow) {
+  -webkit-box-shadow: $boxshadow;
+     -moz-box-shadow: $boxshadow;
+      -ms-box-shadow: $boxshadow;
+          box-shadow: $boxshadow;
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout"
+;

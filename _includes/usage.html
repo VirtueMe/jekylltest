@@ -1,0 +1,15 @@
+<section id="usage" class="section">
+  <h2>{{ site.data[page.language].sections.2.title }}</h2>
+
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+    {% for content in site.data[page.language].sections.2.products %}
+      <h5>{{ content.title }}</h5>
+      <p>{{ content.text }}</p>
+    {% endfor %}
+    </div>
+    <div class="col-xs-12 col-md-5 col-md-offset-1">
+        <img src="{{ site.data[page.language].sections.2.image.url }}" alt="{{ site.data[page.language].sections.2.image.title }}" />
+    </div>
+  </div>
+</section>

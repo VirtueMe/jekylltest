@@ -1,0 +1,59 @@
+<div id="shipment-address" class="col-lg-7 col-xs-12">
+  <div class="card">
+    <div class="card-block">
+      <h4 class="card-title">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.title }}</h4>
+      <h6 class="card-subtitle text-muted">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.subtitle }}</h6>
+    </div>
+    <div class="card-block">
+      <fieldset class="row">
+        <div class="col-lg-6 col-xs-12">
+          <div class="form-group">
+            <label for="firstname" class="sr-only">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.firstname }}</label>
+            <input id="firstname" name="firstname" type="text" class="form-control edit" required="required" placeholder="{{ site.data[page.language].sections.1.steps.2.shipmentaddress.firstname }}" />
+          </div>
+        </div>
+        <div class="col-lg-6 col-xs-12">
+          <div class="form-group">
+            <label for="lastname" class="sr-only">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.lastname }}</label>
+            <input id="lastname" name="lastname" type="text" class="form-control edit" required="required" placeholder="{{ site.data[page.language].sections.1.steps.2.shipmentaddress.lastname }}" />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group row">
+        <div class="col-xs-12">
+          <label for="email" class="sr-only">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.email }}</label>
+          <input id="email" name="email" type="email" class="form-control edit" required="required" placeholder="{{ site.data[page.language].sections.1.steps.2.shipmentaddress.email }}" />
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group row">
+        <div class="col-xs-12">
+          <label for="address" class="sr-only">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.address }}</label>
+          <input id="address" name="address" type="text" class="form-control edit" required="required" placeholder="{{ site.data[page.language].sections.1.steps.2.shipmentaddress.address }}" />
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group row">
+        <div class="col-xs-12">
+            <label for="zip" class="sr-only">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.zip }}</label>
+          <input id="zip" name="zip" type="text" class="form-control edit" required="required" placeholder="{{ site.data[page.language].sections.1.steps.2.shipmentaddress.zip }}" />
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group row">
+        <div class="col-xs-12">
+          <label for="city" class="sr-only">{{ site.data[page.language].sections.1.steps.2.shipmentaddress.city }}</label>
+          <input id="city" name="city" type="text" class="form-control edit" required="required" placeholder="{{ site.data[page.language].sections.1.steps.2.shipmentaddress.city }}" />
+        </div>
+      </fieldset>
+      <br />
+
+      <div class="form-group row">
+        <div class="col-xs-12">
+          <a id="submit-step2" class="btn btn-success btn-block submit" role="button" data-track="/kvittering"><i class="icon-font-left icon-shopping-cart"></i> {{ site.data[page.language].sections.1.steps.2.shipmentaddress.buttontext }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

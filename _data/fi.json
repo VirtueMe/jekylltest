@@ -1,0 +1,212 @@
+{
+  "language": "fi",
+  "jslang": "fi",
+  "title": "Nimilappu - Korkealaatuiset nimilaput edulliseen hintaan! Ilmainen toimitus. Yksinkertaista ja helppoa.",
+  "description": "Korkealaatuisia nimitarroja ja siirtokuvia edullisesti. Ilmainen toimitus. Yksinkertiasta ja helppoa.",
+  "verification_code": "YL3aWQN5ziLbZFUv8aSnOyx00eQsn?mb?MjNDifiJ6s",
+  "trackid": "UA-36858582-3",
+  "header": {
+    "logo": {
+      "url": "/images/gfx/logo-fi.png",
+      "alt": "Nimilappu"
+    },
+    "vision": "Nyt saat korkeatasoiset nimitarrat ja siirtokuvat edulliseen hintaan! Täytä alla oleva lomake ja toimitamme nimilaput sinulle suoraan kotiosoitteeseesi. Maksamme postimaksun puolestasi. Helppoa ja vaivatonta!"
+  },
+  "nav": {
+    "create": "Luo omat nimilaput",
+    "usage": "Käyttöohje",
+    "about": {
+      "full": "Tietoa nimilapuista",
+      "small": "Tietoa"
+    }
+  },
+  "slider": [
+    {
+      "image": "/images/slider-product1.jpg",
+      "text": "Luo omat nimilaput",
+      "url": "#create"
+    },
+    {
+      "image": "/images/slider-product2.jpg",
+      "text": "Luo omat nimilaput",
+      "url": "#create"
+    },
+    {
+      "image": "/images/slider-product3.jpg",
+      "text": "Luo omat nimilaput",
+      "url": "#create"
+    }
+  ],
+  "sections": {
+    "1": {
+      "steps": {
+        "1": {
+          "title": "Nyt voit nimikoida vaatteet ja esineet käden käänteessä!",
+          "textinput": {
+            "title": "Kirjoita haluamasi teksti",
+            "line1": "Ensimmäinen rivi",
+            "line2": "Toinen rivi",
+            "line3": "Kolmas rivi"
+          },
+          "imageselect": {
+            "title": "Valitse kuva",
+            "images": [
+              {
+                "id": "1",
+                "title": "ugle"
+              },
+              {
+                "id": "2",
+                "title": "tre"
+              },
+              {
+                "id": "3",
+                "title": "traktor"
+              },
+              {
+                "id": "4",
+                "title": "hjerte"
+              },
+              {
+                "id": "5",
+                "title": "fugl"
+              },
+              {
+                "id": "6",
+                "title": "katt"
+              },
+              {
+                "id": "7",
+                "title": "sommerfugl"
+              },
+              {
+                "id": "8",
+                "title": "apekatt"
+              },
+              {
+                "id": "9",
+                "title": "pirat"
+              },
+              {
+                "id": "10",
+                "title": "fred"
+              },
+              {
+                "id": "11",
+                "title": "snøfnugg"
+              },
+              {
+                "id": "12",
+                "title": "kanin"
+              }
+            ],
+            "noimage": "En halua kuvaketta nimilappuihini"
+          },
+          "preview": {
+            "title": "Esikatselu",
+            "image": {
+              "url": "/images/icons/1.jpg",
+              "title": "ugle"
+            },
+            "subtitle": "1:1 mittakaava",
+            "content": "180 nimilappua vain 14,90 euroa. Maksamme postimaksun puolestasi.",
+            "buttontext": "Seuraava"
+          }
+        },
+        "2": {
+          "selectproduct": {
+            "image": {
+              "url": "/images/products.jpg",
+              "title": "Nimitarroja ja siirtokuvia"
+            },
+            "title": "Millaisen nimikointipaketin valitset?",
+            "subtitle": "Kaikki paketit maksavat 14,90 euroa. Maksamme postimaksun puolestasi. Lasku tulee paketin mukana.",
+            "products": [
+              {
+                "id": "0",
+                "title": "90 tarraa + 90 siirtokuvaa",
+                "checked": "checked"
+              },
+              {
+                "id": "1",
+                "title": "180 tarraa"
+              },
+              {
+                "id": "2",
+                "title": "180 siirtokuvaa"
+              }
+            ]
+          },
+          "shipmentaddress": {
+            "title": "Lähetystiedot:",
+            "subtitle": "",
+            "firstname": "Etunimi",
+            "lastname": "Sukunimi",
+            "email": "Sähköpostiosoite",
+            "address": "Lähiosoite",
+            "zip": "Postinumero",
+            "city": "Postitoimipaikka",
+            "buttontext": "Tilaa"
+          }
+        },
+        "3": {
+          "title": "Kiitos tilauksestasi!",
+          "subtitle": "Nimilaput ovat matkalla postiosoitteeseesi.",
+          "content": [
+            "Toimitusaika on 1-2 arkipäivää. Saat laskun toimituksen mukana. <a href=\"#usage\">Käyttöohjeet löytyvät täältä</a>",
+            "Toivomme, että olet tyytyväinen tilaukseesi! Olet tervetullut tilaamaan tarvittaessa lisää nimilappuja myöhemmin!"
+          ],
+          "buttontext": "Tilaa lisää nimilappuja"
+        }
+      }
+    },
+    "2": {
+      "title": "Tee näin:",
+      "image": {
+        "url": "/images/product-examples.jpg",
+        "title": "Exempel på produkter som är lämpliga för märkning"
+      },
+      "products": [
+        {
+          "title": "Tarralaput",
+          "text": "Sopivat hyvin eväslaatikoiden, lelujen ja muiden esineiden nimikoimiseen. Voidaan myös liimata vaatteiden pesuohjelappuun. Liimaa vain sileälle, puhtaalle, kuivalle pinnalle. Paina tarra hyvin kiinni ja poista ilmakuplat. Anna tarran kuivua muutama tunti ennen ensimmäistä pesua. Kestää pesun astianpesukoneessa kuumassakin lämpötilassa."
+        },
+        {
+          "title": "Siirtokuvat",
+          "text": "Sopivat hyvin vaatteiden ja muiden tekstiilien nimikoimiseen. Säädä silitysrauta niin kuumalle kuin vaatteen materiaali kestää. Älä käytä höyrytoimintoa. Aseta kuva haluamaasi kohtaan kuvapuoli ylöspäin. Aseta mukana tuleva paperi tai pala leivinpaperia kuvan ja silitysraudan väliin. Paina kuvaa kevyesti raudalla, pidä liikkumatta n. 5-10 sekuntia. Odota muutama tunti ennen ensimmäistä pesukertaa. Siirtokuvat kestävät pesun 90 asteessa."
+        }
+      ]
+    },
+    "3": {
+      "title": "Lisää nimilapuista",
+      "image": {
+        "url": "/images/product-single.jpg",
+        "title": "Produkten är lämplig för märkning"
+      },
+      "blocks": [
+        {
+          "content": [
+            "Toivomme, että tuotteemme helpottavat perheesi esineiden ja vaatteiden nimikointia. Nimilappumme ovat laadukkaita, edullisia ja helppo tilata. Tarrat ja kuvat on helppo kiinnittää ja helpottavat niin pienten kuin suurtenkin perheenjäsenten arkipäivää.",
+            "Nimilappumme valmistaa <a href=\"http://www.sandviks.com\">Sandviks</a>, joka tarjoaa tukea, tietoa ja iloisen kohtaamispaikan odottajille ja pienten lasten vanhemmille osoitteessa <a href=\"http://www.vau.fi\">Vau.fi.</a>Lisäksi osoitteessa <a href=\"http://www.vaukirja.fi\">Vaukirja.fi</a> tarjoamme lapsellesi oikean kirjan oikeaan aikaan, sillä haluamme edistää lasten ja vanhempia kehittymään yhdessä kirjojen avulla.",
+            "Ta kontakt med vår kundeservice dersom du har noen spørsmål."
+          ],
+          "address": {
+            "line1": "Asiakaspalvelu",
+            "line2": "<a href=\"mailto:asiakaspalvelu@vaukirja.fi\">asiakaspalvelu@vaukirja.fi</a>",
+            "line3": "<abbr title=\"Puhelin\">P:</abbr> 010 806330"
+          }
+        },
+        {
+          "content": [
+            "Vastaamme kaikkiin sähköpostitiedusteluihin mahdollisimman pian, viimeistään seuraavana arkipäivänä. Asiakaspalvelumme vastaa puheluihin arkisin klo 10-15."
+          ],
+          "address": {
+            "line1": "Osoite",
+            "line2": "PL 1360",
+            "line3": "00101 Helsinki"
+          }
+        }
+      ]
+    }
+  }
+}

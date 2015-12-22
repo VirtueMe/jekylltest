@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.data[page.language].language }}">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="125" data-trackid="{{ site.data[page.language].trackid }}">
+    {% include header.html %}
+
+    {% include nav.html %}
+    <div class="container">
+      {% include slider.html %}
+
+      {% include create.html %}
+
+      {% include usage.html %}
+
+      {% include about.html %}
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

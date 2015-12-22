@@ -1,0 +1,14 @@
+{{ assign my_data = site.data[page.language] }}
+<header id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img id="logo" src="{{ site.data[page.language].header.logo.alt }}" alt="{{ site.data[page.language].header.logo.alt }}" />
+      </div>
+
+      <div id="vision" class="col-md-11 col-md-offset-1">
+          <h1>{{ site.data[page.language].header.vision }}</h1>
+      </div>
+    </div>
+  </div>
+</header>

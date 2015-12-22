@@ -1,0 +1,21 @@
+<div id="select-icon" class="card">
+  <div class="card-block">
+    <h4 class="card-title"><i class="icon-font-left icon-heart-empty"></i> {{ site.data[page.language].sections.1.steps.1.imageselect.title }}</h4>
+  </div>
+  <div class="card-block">
+    <div class="row">
+    {% for image in site.data[page.language].sections.1.steps.1.imageselect.images %}
+      <div class="icon-container col-xs-3">
+        <div class="icon active"><img src="images/icons/{{ image.id }}.jpg" data-imageid="{{ image.id }}" alt="{{ image.title }}"/></div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  <div class="card-block">
+    <div class="radio">
+      <label>
+        <input id="no-icon" type="radio" value="0"> {{ site.data[page.language].sections.1.steps.1.imageselect.noimage }}
+      </label><br />
+    </div>
+  </div>
+</div>
