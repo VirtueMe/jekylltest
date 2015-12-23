@@ -1,0 +1,207 @@
+{
+  "language": "sv-SE",
+  "jslang": "sv-se",
+  "title": "Namnmärkning - Högkvalitativa klister- och påstrykningsmärken till låga priser! Gratis porto. Enkelt och bra!",
+  "description": "Högkvalitativa klister- och påstrykningsmärken till låga priser! Gratis porto. Enkelt och bra!",
+  "verification_code": "o-Zptw0MMnqEYSUaiewnU_eb4ZRlwZWiDtChtRsJFPU",
+  "trackid": "UA-36858582-1",
+  "header": {
+    "logo": {
+      "url": "/images/gfx/logo-se.png",
+      "alt": "Namnmärkning logo"
+    },
+    "vision": "Navnelapper i høy kvalitet til lav pris!<span class=\"hidden-xs-down\">  Få klistremerker og strykemerker rett hjem i postkassa. Gratis porto. Enkelt og greit!</span>"
+  },
+  "nav": {
+    "create": "Gör namnmärken",
+    "usage": "Bruksanvisning",
+    "about": {
+      "full": "Om Namnmärkning",
+      "small": "Om Oss"
+    }
+  },
+  "slider": [
+    {
+      "image": "/images/slider-product1.jpg",
+      "text": "Gör dina namnmärken",
+      "url": "#create"
+    },
+    {
+      "image": "/images/slider-product2.jpg",
+      "text": "Gör dina namnmärken",
+      "url": "#create"
+    },
+    {
+      "image": "/images/slider-product3.jpg",
+      "text": "Gör dina namnmärken",
+      "url": "#create"
+    }
+  ],
+  "sections": {
+    "1": {
+      "steps": {
+        "1": {
+          "title": "Gör egna namnmärken<span class=\"hidden-xs-down\">  enkelt på nolltid</span>!",
+          "textinput": {
+            "title": "Skriv in text",
+            "line1": "Första raden",
+            "line2": "Andra raden",
+            "line3": "Tredje raden"
+          },
+          "imageselect": {
+            "title": "Välj motiv",
+            "images": [
+              {
+                "id": "1",
+                "title": "ugle"
+              },
+              {
+                "id": "2",
+                "title": "tre"
+              },
+              {
+                "id": "3",
+                "title": "traktor"
+              },
+              {
+                "id": "4",
+                "title": "hjerte"
+              },
+              {
+                "id": "5",
+                "title": "fugl"
+              },
+              {
+                "id": "6",
+                "title": "katt"
+              },
+              {
+                "id": "7",
+                "title": "sommerfugl"
+              },
+              {
+                "id": "8",
+                "title": "apekatt"
+              },
+              {
+                "id": "9",
+                "title": "pirat"
+              },
+              {
+                "id": "10",
+                "title": "peace"
+              },
+              {
+                "id": "11",
+                "title": "snøfnugg"
+              },
+              {
+                "id": "12",
+                "title": "kanin"
+              }
+            ],
+            "noimage": "Jag önskar inget motiv på mina namnmärken"
+          },
+          "preview": {
+            "title": "Förhandsvisning",
+            "image": {
+              "url": "/images/icons/1.jpg",
+              "title": "ugle"
+            },
+            "subtitle": "1:1 storlek",
+            "content": "Få 180 namnmärken för endast 129 kronor. Vi står för portot!",
+            "buttontext": "Gå vidare"
+          }
+        },
+        "2": {
+          "selectproduct": {
+            "image": {
+              "url": "/images/products.jpg",
+              "title": "Klister- och påstrykningsmärken"
+            },
+            "title": "Vilket paket önskar du?",
+            "subtitle": "Alla paket kostar 129 kronor. Vi står för portot.",
+            "products": [
+              {
+                "id": "0",
+                "title": "90 klistermärken + 90 påstrykningsmärken<",
+                "checked": "checked"
+              },
+              {
+                "id": "1",
+                "title": "180 klistermärken"
+              },
+              {
+                "id": "2",
+                "title": "180 påstrykningsmärken"
+              }
+            ]
+          },
+          "shipmentaddress": {
+            "title": "Vart ska dina namnmärken skickas?",
+            "subtitle": "Fakturan skickas i samband med dina varor.",
+            "firstname": "Förnamn",
+            "lastname": "Efternamn",
+            "email": "E-post",
+            "address": "Adress",
+            "zip": "Postnummer",
+            "city": "Ort",
+            "buttontext": "Beställ"
+          }
+        },
+        "3": {
+          "title": "Tusen tack för din beställning!",
+          "subtitle": "Namnmärkena är snart på väg hem till din brevlåda!",
+          "content": [
+            "Förväntad leveranstid är 1-2 arbetsdagar. Fakturan skickas tillsammans med varorna. <a href=\"#usage\">Bruksanvisning hittar du här</a>",
+            "Vi hoppas att du ska bli nöjd med namnmärkena, och önskar dig välkommen tillbaka när du behöver fler!"
+          ],
+          "buttontext": "Skapa fler namnmärken"
+        }
+      }
+    },
+    "2": {
+      "title": "Så här gör du:",
+      "image": {
+        "url": "/images/product-examples.jpg",
+        "title": "Exempel på produkter som är lämpliga för märkning"
+      },
+      "products": [
+        {
+          "title": "Klistermärken",
+          "text": "Perfekta att märka matlådor, leksaker och andra ägodelar med. De kan också klistras på tvättinformationslappen i kläder. Se till att ytan där klistermärket ska sitta är jämn, ren och torr. Gnid ordentligt över klistermärket så att du får bort alla luftbubblor. Låt klistermärket sitta några timmar innan första tvätt. Klistermärket tål maskintvätt i höga temperaturer."
+        },
+        {
+          "title": "Påstrykningsmärken",
+          "text": "Bra att märka kläder och andra textilier med. Ställ in strykjärnet på högsta värme, utan ånga. Stryk endast textilier som tål strykning vid hög temperatur. Placera påstrykningsmärket på önskat ställe, med texten uppåt. Lägg medföljande papper eller bakplåtspapper mellan strykjärnet och märket. Lägg strykjärnet över strykmärket och pressa försiktigt. Håll strykjärnet där i cirka 5-10 sekunder. Låt märket sitta på i några timmar innan första tvätt. Påstrykningsmärket tål 90 graders maskintvätt."
+        }
+      ]
+    },
+    "3": {
+      "title": "Om Namnmärkning",
+      "image": {
+        "url": "/images/product-single.jpg",
+        "title": ""
+      },
+      "blocks": [
+        {
+          "content": [
+            "Vi önskar att göra det enkelt och bra för din familj att märka kläder och ägodelar. Namnmärkena är av god kvalitet och enkla för dig att beställa, utan för många valmöjligheter. Namnmärkena är enkla att använda och kan bidra till en praktisk och enkel vardag för både stora och små.",
+            "Namnmärket produceras av <a href=\"http://www.sandviks.com\">Sandviks Förlag</a>, som också erbjuder familjer vägledning genom <a href=\"http://www.babyvarlden.se\">Babyvarlden.se</a> och rätt bok till rätt tid genom <a href=\"http://www.goboken.se\">Goboken.se</a>. Eller med andra ord: Vi hjälper barn och föräldrar att utvecklas tillsammans.",
+            "Ta kontakt med vår kundservice om du har några frågor."
+          ],
+          "address": {
+            "line1": "Kundservice",
+            "line2": "<a href=\"mailto:goboken@goboken.se\">goboken@goboken.se</a>",
+            "line3": "<abbr title=\"Telefon\">T:</abbr> 040-660 68 00"
+          }
+        },
+        {
+          "content": [
+            "Vi besvarar all e-post så snart vi kan, senast under efterföljande arbetsdag. Vår kundservice har öppet alla vardagar mellan 08:30-17:00."
+          ]
+        }
+      ]
+    }
+  }
+}

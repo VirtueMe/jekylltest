@@ -11,11 +11,13 @@
         <p>{{content}}</p>
         {% endfor %}
 
+        {% if block.address %}
         <address>
             <strong>{{ block.address.line1 }}</strong><br />
             {{ block.address.line2 }}<br />
             {{ block.address.line3 }}<br />
         </address>
+        {% endif %}
       {% endfor %}
     </div>
 

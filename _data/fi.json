@@ -10,7 +10,7 @@
       "url": "/images/gfx/logo-fi.png",
       "alt": "Nimilappu"
     },
-    "vision": "Nyt saat korkeatasoiset nimitarrat ja siirtokuvat edulliseen hintaan! Täytä alla oleva lomake ja toimitamme nimilaput sinulle suoraan kotiosoitteeseesi. Maksamme postimaksun puolestasi. Helppoa ja vaivatonta!"
+    "vision": "Nyt saat korkeatasoiset nimitarrat ja siirtokuvat edulliseen hintaan!<span class=\"hidden-xs-down\">  Täytä alla oleva lomake ja toimitamme nimilaput sinulle suoraan kotiosoitteeseesi. Maksamme postimaksun puolestasi. Helppoa ja vaivatonta!</span>"
   },
   "nav": {
     "create": "Luo omat nimilaput",
@@ -188,7 +188,7 @@
           "content": [
             "Toivomme, että tuotteemme helpottavat perheesi esineiden ja vaatteiden nimikointia. Nimilappumme ovat laadukkaita, edullisia ja helppo tilata. Tarrat ja kuvat on helppo kiinnittää ja helpottavat niin pienten kuin suurtenkin perheenjäsenten arkipäivää.",
             "Nimilappumme valmistaa <a href=\"http://www.sandviks.com\">Sandviks</a>, joka tarjoaa tukea, tietoa ja iloisen kohtaamispaikan odottajille ja pienten lasten vanhemmille osoitteessa <a href=\"http://www.vau.fi\">Vau.fi.</a>Lisäksi osoitteessa <a href=\"http://www.vaukirja.fi\">Vaukirja.fi</a> tarjoamme lapsellesi oikean kirjan oikeaan aikaan, sillä haluamme edistää lasten ja vanhempia kehittymään yhdessä kirjojen avulla.",
-            "Ta kontakt med vår kundeservice dersom du har noen spørsmål."
+            "Jos sinulla on kysyttävää, ota yhteys asiakaspalveluumme."
           ],
           "address": {
             "line1": "Asiakaspalvelu",

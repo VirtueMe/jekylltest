@@ -10,7 +10,7 @@
       "url": "/images/gfx/logo.png",
       "alt": "Navnemerket"
     },
-    "vision": "Navnelapper i høy kvalitet til lav pris! Få klistremerker og strykemerker rett hjem i postkassa. Gratis porto. Enkelt og greit!"
+    "vision": "Navnelapper i høy kvalitet til lav pris!<span class=\"hidden-xs-down\">  Få klistremerker og strykemerker rett hjem i postkassa. Gratis porto. Enkelt og greit!</span>"
   },
   "nav": {
     "create": "Lag navnelapper",
