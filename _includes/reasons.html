@@ -1,0 +1,23 @@
+{% if page.reason %}
+<section id="reasons" class="section">
+  <h2>Hvorfor du skal velge oss</h2>
+  <br />
+  <div class="row">
+    {% for reason in site.data[page.language].reasons %}
+      <div class="col-md-6 col-xs-12">
+        <div class="p-a-i reasontext">
+          <span><i class="fa fa-check-circle fa-lg"></i> {{ reason }}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-xs-12">
+      <div class="p-a-1">
+        <a href="#create" class="btn btn-success btn-block button" role="button">{{ site.data[page.language].reasonbuttontext }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

@@ -4,10 +4,12 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="nav navbar-nav pull-xs-right">
-          <li class="nav-item"><a href="#home" class="nav-link"><i class="icon-home"></i></a></li>
+          <li class="nav-item"><a href="#home" class="nav-link"><i class="fa fa-home"></i></a></li>
           <li class="nav-item"><a href="#create" class="nav-link">{{ site.data[page.language].nav.create }}</a></li>
+          <li class="nav-item"><a href="#reasons" class="nav-link">{{ site.data[page.language].nav.reasons }}</a></li>
           <li class="nav-item"><a href="#usage" class="nav-link">{{ site.data[page.language].nav.usage }}</a></li>
           <li class="nav-item"><a href="#about" class="nav-link"><span class="hidden-xs-down">{{ site.data[page.language].nav.about.full }}</span><span class="hidden-sm-up">{{ site.data[page.language].nav.about.small }}</span></a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">{{ site.data[page.language].nav.contact }}</a></li>
         </ul>
       </div>
     </div>
@@ -18,7 +20,7 @@
 <div class="bg-inverse">
   <div class="container">
     <div class="row">
-      <div class="p-a-1">
+      <div class="p-a-1 title font-italic">
         {% include title.html %}
       </div>
     </div>

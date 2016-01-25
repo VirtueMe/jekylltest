@@ -1,0 +1,38 @@
+{% if page.contactsection %}
+  <div id="contact" class="bg-inverse">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="p-a-1">
+            {% for block in site.data[page.language].sections.3.blocks %}
+              {% if block.contactsection == true %}
+                {% for content in block.content %}
+                  <p>{{content}}</p>
+                {% endfor %}
+              {% endif %}
+
+              {% if block.address %}
+              <address>
+                <strong>{{ block.address.line1 }}</strong><br />
+                {{ block.address.line2 }} <br />
+                {{ block.address.line3 }}<br />
+              </address>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% if site.data[page.language].facebook %}
+        <div class="col-xs-12 col-md-6">
+          <div class="p-a-1">
+            <br />
+            <br />
+            <br />
+            <h4>{{ site.data[page.language].facebook.visitus }}</h4>
+            <a href="https://facebook.com/navnemerket"><i class="fa fa-facebook-official fa-lg" style="background-color: white"></i> {{ site.data[page.language].name }}</a>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endif %}

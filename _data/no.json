@@ -9,6 +9,7 @@
   "verification_code": "o-Zptw0MMnqEYSUaiewnU_eb4ZRlwZWiDtChtRsJFPU",
   "trackid": "UA-36858582-1",
   "facebook": {
+    "visitus": "Besøk oss på Facebook",
     "url": "https://www.navnemerket.no",
     "title": "Navnelapper - klistremerker og strykemerker. Gratis frakt og rask levering!",
     "image": "/images/facebook1.jpg",
@@ -23,11 +24,13 @@
   },
   "nav": {
     "create": "Lag navnelapper",
+    "reasons": "Hvorfor oss",
     "usage": "Bruksanvisning",
     "about": {
       "full": "Om Navnemerket",
       "small": "Om oss"
-    }
+    },
+    "contact": "Kontakt oss"
   },
   "slider": [
     {
@@ -46,6 +49,15 @@
       "url": "#create"
     }
   ],
+  "reasons": [
+    "Maskinvaskbare merkelapper",
+    "Koster kun 99,-",
+    "Gratis frakt og ingen gebyrer",
+    "Bestill nå, få faktura i posten",
+    "Sendes fra Norge",
+    "Pynt dem med morsomme bilder"
+  ],
+  "reasonbuttontext": "Lag dine navnelapper her",
   "sections": {
     "1": {
       "steps": {
@@ -206,6 +218,7 @@
           }
         },
         {
+          "contactsection": true,
           "content": [
             "Vi besvarer alle e-poster så raskt vi kan og senest i løpet av neste arbeidsdag. Sandviks kundeservice er betjent mellom klokken 09.00-15.00 alle hverdager."
           ],

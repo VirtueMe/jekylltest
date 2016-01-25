@@ -1,8 +1,9 @@
 $bg-color: #75c044;
+$font-color: #5cb85c;
 
 .section {
   display: block;
-  height: 1600px;
+  min-height: 100vh;
   padding-top: 5em;
 
   @media screen and (min-width: 12em) {
@@ -19,6 +20,10 @@ $bg-color: #75c044;
     width: 100%;
     min-width: 100%;
     padding-bottom: 1em;
+}
+
+.title h1 {
+  font-size: 1.5rem;
 }
 
 
@@ -169,6 +174,12 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
     min-height: 8px;
     color: red;
     margin-bottom: 7px;
+}
+
+.reasontext {
+  color: $font-color;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Typography

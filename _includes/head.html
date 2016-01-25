@@ -5,6 +5,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <meta name="author" content="Sandviks AS">
+  {% if page.robots %}
+    <meta name="robots" content="{{ page.robots }}" />
+  {% endif %}
   <meta name="google-site-verification" content="{{ site.data[page.language].verification_code }}" />
   <meta name="description" content="{{ site.data[page.language].description }}">
 
