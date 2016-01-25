@@ -1,6 +1,11 @@
 {
   "language": "fi",
   "jslang": "fi",
+  "fblang": "fi_FI",
+  "currency": "EUR",
+  "price": "14.90",
+  "name": "Nimilappu",
+  "manifest": "manifest_fi",
   "title": "Nimilappu - Korkealaatuiset nimilaput edulliseen hintaan! Ilmainen toimitus. Yksinkertaista ja helppoa.",
   "description": "Korkealaatuisia nimitarroja ja siirtokuvia edullisesti. Ilmainen toimitus. Yksinkertiasta ja helppoa.",
   "verification_code": "YL3aWQN5ziLbZFUv8aSnOyx00eQsn_mb_MjNDifiJ6s",
@@ -17,7 +22,7 @@
     "usage": "Käyttöohje",
     "about": {
       "full": "Tietoa nimilapuista",
-      "small": "Tietoa"
+      "small": "Meistä"
     }
   },
   "slider": [

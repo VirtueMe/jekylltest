@@ -5,7 +5,7 @@
       <h4 class="card-title">{{ site.data[page.language].sections.1.steps.2.selectproduct.title }}</h4>
 
     {% for product in site.data[page.language].sections.1.steps.2.selectproduct.products %}
-      <div class="radio"><label class="inline-label"><input type="radio" id="option{{ product.id }}" name="radio" value="{{ product.id }}" {{ product.checked }} /> {{ product.title }}</label></div>
+      <div class="radio" itemscope itemtype="https://schema.org/Product"> <link itemprop="availabiltiy" href="https://schema.org/InStock" /><label class="inline-label"><input type="radio" id="option{{ product.id }}" name="radio" value="{{ product.id }}" {{ product.checked }} /> <span itemprop="priceCurrency" content="{{ site.data[page.language].currency }}"></span><span itemprop="price" content="{{ site.data[page.language].price }}"></span><span itemprop="name">{{ product.title }}</span></label></div>
     {% endfor %}
       <p class="card-text">{{ site.data[page.language].sections.1.steps.2.selectproduct.subtitle }}</p>
     </div>

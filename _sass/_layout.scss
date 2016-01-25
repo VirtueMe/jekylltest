@@ -1,3 +1,5 @@
+$bg-color: #75c044;
+
 .section {
   display: block;
   height: 1600px;
@@ -12,12 +14,10 @@
 }
 
 #home {
-    /*background: #75c044;*/
-    /* background: url(/images/gfx/top-bg.png); */
+    background: $bg-color;
     background-repeat: repeat;
     width: 100%;
     min-width: 100%;
-    margin-bottom: 1px;
     padding-bottom: 1em;
 }
 
@@ -40,20 +40,27 @@
 }
 
 #navbar {
-    font-family: "museo-slab", Georgia, Times, serif;
-    font-weight: 500;
+  font-family: "museo-slab", Georgia, Times, serif;
+  font-family: "museo-slab", Georgia, Times, serif;
+  font-weight: 500;
+}
+
+#navbar.dark {
+    margin-top: 1px;
     background: #242424;
     color: #ffffff;
 }
 
-
-
-#navbar ul.nav li a:hover {
-    color: #75c044;
+#navbar.green {
+  background: $bg-color;
 }
 
-#navbar ul.nav li.active a {
-    color: #75c044;
+#navbar.dark ul.nav li a:hover {
+    color: $bg-color;
+}
+
+#navbar.dark ul.nav li.active a {
+    color: $bg-color;
 }
 
 .flexslider {

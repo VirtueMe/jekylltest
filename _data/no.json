@@ -1,10 +1,19 @@
 {
   "language": "nb-NO",
   "jslang": "nb-no",
+  "fblang": "nb_NO",
+  "name": "Navnemerket",
+  "manifest": "manifest",
   "title": "Navnelapper - klistremerker og strykemerker. Navnemerket gir deg gratis frakt og rask levering!",
   "description": "Navnelapper og merkelapper for klær og eiendeler! Vi har gratis frakt og rask levering. Enkelt og billig!",
   "verification_code": "o-Zptw0MMnqEYSUaiewnU_eb4ZRlwZWiDtChtRsJFPU",
   "trackid": "UA-36858582-1",
+  "facebook": {
+    "url": "https://www.navnemerket.no",
+    "title": "Navnelapper - klistremerker og strykemerker. Gratis frakt og rask levering!",
+    "image": "/images/facebook1.jpg",
+    "appid": "207454509600283"
+  },
   "header": {
     "logo": {
       "url": "/images/gfx/logo.png",
@@ -17,7 +26,7 @@
     "usage": "Bruksanvisning",
     "about": {
       "full": "Om Navnemerket",
-      "small": "Om Oss"
+      "small": "Om oss"
     }
   },
   "slider": [

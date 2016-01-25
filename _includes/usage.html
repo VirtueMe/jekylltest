@@ -4,8 +4,10 @@
   <div class="row">
     <div class="col-xs-12 col-md-6">
     {% for content in site.data[page.language].sections.2.products %}
-      <h5>{{ content.title }}</h5>
-      <p>{{ content.text }}</p>
+      <div itemscope itemtype="https://schema.org/Product">
+        <h5 itemprop="name">{{ content.title }}</h5>
+        <p itemprop="description">{{ content.text }}</p>
+      </div>
     {% endfor %}
     </div>
     <div class="col-xs-12 col-md-5 col-md-offset-1">

@@ -1,6 +1,11 @@
 {
   "language": "sv-SE",
   "jslang": "sv-se",
+  "fblang": "sv_SE",
+  "currency": "SEK",
+  "price": "129.00",
+  "name": "Namnmärkning",
+  "manifest": "manifest_se",
   "title": "Namnmärkning - Högkvalitativa klister- och påstrykningsmärken till låga priser! Gratis porto. Enkelt och bra!",
   "description": "Högkvalitativa klister- och påstrykningsmärken till låga priser! Gratis porto. Enkelt och bra!",
   "verification_code": "8tv0mGsMbf8m7NqlF3obagb693qniulTKZHO9fzbPpg",
@@ -17,7 +22,7 @@
     "usage": "Bruksanvisning",
     "about": {
       "full": "Om Namnmärkning",
-      "small": "Om Oss"
+      "small": "Om oss"
     }
   },
   "slider": [

@@ -1,0 +1,10 @@
+{% if site.data[page.language].facebook %}
+  <meta property="og:url" content="{{ site.data[page.language].facebook.url }}" />
+  <meta property="og:type" content="product" />
+  <meta property="og:title" content="{{ site.data[page.language].facebook.title }}" />
+  <meta property="og:site_name" content="{{  site.data[page.language].name }}" />
+  <meta property="og:locale" content="{{ site.data[page.language].fblang }}" />
+  <meta property="og:description" content="{{ site.data[page.language].description }}" />
+  <meta property="og:image" content="{{ site.data[page.language].facebook.url }}{{ site.data[page.language].facebook.image }}" />
+  <meta property="fb:app_id" content="{{ site.data[page.language].facebook.appid }}" />
+{% endif %}

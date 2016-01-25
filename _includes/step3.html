@@ -10,6 +10,9 @@
         {% for text in site.data[page.language].sections.1.steps.3.content %}
           <p class="card-text">{{ text }}</p>
         {% endfor %}
+        {% if site.data[page.language].facebook %}
+          {% include  fblikebutton.html faces="true" %}
+        {% endif %}
         </div>
         <div class="card-block">
           <a id="submit-step3" class="btn btn-success btn-block button" role="button">{{ site.data[page.language].sections.1.steps.3.buttontext }}</a>
