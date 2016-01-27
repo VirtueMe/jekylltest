@@ -1,11 +1,28 @@
 <div class="row">
   <div class="col-md-12">
-    <div class="flexslider">
-      <ul class="slides">
+    <div id="firstslider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        {% for slide in site.data[page.language].slider %}
+          <li data-target="#firstslider" data-slide-to={% cycle 'group1': '"0"', '"1"', '"2"', '"3"' %} {% cycle 'group2': 'class="active"', '', '', '', '' %} >
+        {% endfor %}
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
       {% for slide in site.data[page.language].slider %}
-        <li><a href="{{ slide.url }}"><img src="{{ slide.image }}" alt="{{ slide.text }}"/></a></li>
+        <div class="carousel-item {% cycle 'active', '', '', '' %}">
+          <a href="{{ slide.url }}"><img src="{{ slide.image }}" alt="{{ slide.text }}" /></a>
+        </div>
       {% endfor %}
-      </ul>
+      </div>
+
+      <a class="left carousel-control" href="#firstslider" role="button" data-slide="prev">
+        <span class="icon-prev" aria-hidden="true"></span>
+        <span class="sr-only">Forrige</span>
+      </a>
+      <a class="right carousel-control" href="#firstslider" role="button" data-slide="next">
+        <span class="icon-next" aria-hidden="true"></span>
+        <span class="sr-only">Neste</span>
+      </a>
     </div>
   </div>
 </div>

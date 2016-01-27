@@ -68,11 +68,11 @@ $font-color: #5cb85c;
     color: $bg-color;
 }
 
-.flexslider {
-    margin: 40px 0 90px 0 !important;
+@media (min-width: 75em) {
+  .carousel-inner>.carousel-item>a>img {
+    width: 100%
+  }
 }
-
-.flexslider ul li { margin-bottom: 0;}
 
 #step1 {
     border-bottom: 1px dashed #cecece;
