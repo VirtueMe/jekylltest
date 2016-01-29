@@ -57,6 +57,16 @@
     "Sendes fra Norge",
     "Pynt dem med morsomme bilder"
   ],
+  "quotes": [
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "author": "Amund Junge"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "author": "Benny Thomas"
+    }
+  ],
   "reasonbuttontext": "Lag dine navnelapper her",
   "sections": {
     "1": {

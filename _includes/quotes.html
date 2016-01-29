@@ -1,0 +1,24 @@
+{% if site.data[page.language].quotes %}
+<div class="row">
+  <div class="col-md-12">
+    <div id="quoteslider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        {% for quote in site.data[page.language].quotes %}
+          <li data-target="#quoteslider" data-slide-to={% cycle 'groupquote1': '"0"', '"1"', '"2"', '"3"' %} {% cycle 'groupqoute2': 'class="active"', '', '', '', '' %} >
+        {% endfor %}
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        {% for quote in site.data[page.language].quotes %}
+          <div class="carousel-item {% cycle 'groupquote3': 'active', '', '', '' %}">
+            <blockquote class="blockquote">
+              <p>{{ quote.text }}</p>
+              <footer><cite title="{{ quote.author }}">{{ quote.author }}</cite></footer>
+            </blockquote>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
